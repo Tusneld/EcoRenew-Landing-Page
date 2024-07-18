@@ -1,0 +1,60 @@
+/*==========TABLE OF CONTENTS ========
+1. CSS Variables
+Utility CSS
+=====================================*/
+/*------------------------------------
+1. CSS Variables
+-------------------------------------*/
+:root {
+  /*-------color variables---------*/
+  --black_900: #000000;
+  --black_900_04: #00000004;
+  --black_900_19: #00000019;
+  --black_900_3f: #0000003f;
+  --black_900_4c: #0000004c;
+  --black_900_7f: #0000007f;
+  --black_900_99: #00000099;
+  --blue_gray_100_7f: #cccccc7f;
+  --blue_gray_900: #333333;
+  --gray_100: #f7f7f7;
+  --gray_100_01: #f3f3f3;
+  --gray_100_02: #f5f5f5;
+  --green_800: #2e7d32;
+  --neutral_light_gray_light_gray_700: #aeaeae;
+  --neutrals_dark_gray_neutrals_dark_gray_900: #15151599;
+  --secondary_blue_secondary_500: #4a90e2;
+  --secondary_blue_secondary_600: #4383ce;
+  --white_a700_cc: #ffffffcc;
+  --white_white_500_0: #ffffff;
+  --white_white_500_1: #ffffff7f;
+
+  /*---------Shadow variables ---------*/
+  --radius-xs: 8px;
+  --radius-sm: 10px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+}
+
+/*-------Spacing variables-----------*/
+{
+--space-xs{}: 2px;
+--space-sm: 6px;
+--space-md: 8px;
+--space-lg: 16px;
+--space-x1: 18px;
+--space-2x1: 20px;
+--space-3x1: 22px;
+--space-4x1: 24px;
+--space-5x1: 32px;
+--space-6x1: 48px;
+--space-7x1: 64px;
+}
+/*--------------------------------------
+2. Utility CSS
+---------------------------------------*/
+.flex-co-center-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

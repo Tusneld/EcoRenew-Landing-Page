@@ -1,0 +1,240 @@
+/*========TABLE OF CONTENTS ======
+1. Button CSS
+2. Input CSS
+3. Textarea CSS
+4. Text CSS
+5. Heading CSS
+6. Container CSS
+==================================*/
+
+/*--------------------------
+1. Button CSS
+--------------------------*/
+.iu.button.round {
+  border-radius: var(--radius-sm);
+}
+
+.iu.button.size-sm {
+  height: 82px;
+  padding-left: 34px;
+  padding-right: 34px;
+  font-size: 24px;
+}
+
+.iu.button.size-xs {
+  height: 76px;
+  padding-left: 34px;
+  padding-right: 34px;
+  font-size: 24px;
+}
+
+.ui.button.fill.secondary_blue_secondary_500 {
+  background-color: var(--secondary-blue-secondary-500);
+  color: var(--white_white_500_0);
+}
+
+.ui.button.outline.secondary_blue_secondary_600 {
+  color: var(--white_white_500_0);
+  border: 4px solid var(--secondary-blue-secondary-600);
+}
+
+.ui.button.fill.green_800 {
+  background-color: var(--green-800);
+  color: var(--white_white_500_0);
+}
+
+.ui.button {
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  color: var(--white_white_500_0);
+  letter-spacing: -0.96px;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+}
+/*-----------------------
+2.Input CSS
+-----------------------*/
+.iu.input.round {
+  border-radius: var(--radius-sm);
+}
+
+.iu.input.size-xs {
+  height: 60px;
+  padding-left: var(--space-4x1);
+  padding-right: 34px;
+  font-size: 20px;
+}
+
+.ui.input.fill.white_white_500_0 {
+  background-color: var(--white_white_500_0);
+  color: var(--black_900_3f);
+}
+
+.ui.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: text;
+  color: var(--black_900_3f);
+  letter-spacing: 0.8px;
+  font-size: 20px;
+  background-color: var(--white_white_500_0);
+  align-self: stretch;
+  border-radius: var(--radius-sm);
+}
+/*-------------------------
+3. Textarea CSS
+-------------------------*/
+.ui.textarea.round {
+  border-radius: var(--radius-sm);
+}
+
+.ui.textarea.size-xs {
+  height: 156px;
+  padding: var(--space-2x1)
+}
+
+.ui.textarea.tarfillwhitewhite500_0 {
+  background-color: var(--white_white_500_0);
+}
+/*-------------------
+4. Text CSS
+-------------------*/
+.ui.text.size-texts {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  @media only screen and (max-width: 1440px) {
+    font-size: 17px;
+  }
+}
+
+.ui.text.size.textmd {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  @media only screen and (max-width: 1050px){
+    font-size: 22px;
+  }
+}
+
+.ui.text {
+  color: var(--black_900_7f);
+  font-family: Inter;
+}
+/*--------------------
+5. Heading CSS
+--------------------*/
+.ui.header.size-textxs {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 13px;
+  }
+}
+
+.ui.header.size-headingxs {
+  font-size: 20px;
+  font-weight: 900;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 17px;
+  }
+}
+
+.ui.heading.size-headings {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 22px;
+  }
+}
+
+.ui.heading.size-headingmd {
+  font-size: 28px;
+  font-weight: 900;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 23px
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 26px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 24px;
+  }
+}
+
+.ui.heading.size-headinglg {
+  font-size: 40px;
+  font-weight: 900;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 34px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 38px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 36px;
+  }
+}
+
+.ui.heading.size-headingx1 {
+  font-size: 48px;
+  font-weight: 900;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 1050px) {
+  font-size: 44px;
+}
+ @media only screen and (max-width: 550px) {
+  font-size: 38px;
+ }
+}
+
+.ui.heading.size-heading2x1 {
+  font-size: 72px;
+  font-weight: 900;
+  font-style: bold;
+  @media only screen and (max-width: 1440px) {
+    font-size: 72px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    font: size 48px;
+  }
+}
+
+.ui.heading {
+  color: var(--green-800);
+  font-family: Inter;
+}
+/*----------------------------------------
+6. Container CSS
+----------------------------------------*/
+.container-xs {
+  max-width: 1680px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
